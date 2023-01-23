@@ -1,0 +1,156 @@
+/*GENERAL STYLING*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Poppins";
+	background-color: #B9F3FC;
+	color: #00425A;
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+h1 {
+	font-size: 4.5rem;
+}
+h5 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1rem;
+	color: black;
+}
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1rem;
+}
+
+/*CENTRAL COMPONENTS*/
+.mainDiv {
+	width: 68%;
+	height: 54%;
+	margin: auto;
+	margin-top: 15px;
+	border: 7px solid black;
+	border-radius: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #AEE2FF;
+}
+table {
+	width: 100%;
+}
+table a {
+	display: inline-block;
+	width: 120px;
+	padding: 5px 0;
+	margin: 5px 0;
+	border: 3px solid white;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+table a:active {
+	position: relative;
+	top: 2px;
+}
+tr td:nth-of-type(1) {
+	text-align: right;
+}
+tr td:nth-of-type(2) {
+	text-align: center;
+}
+tr td:nth-of-type(3) {
+	text-align: left;
+}
+.getButton {
+	background-color: #00337C;
+}
+.postButton {
+	background-color: #54B435;
+}
+.patchButton {
+	background-color: #F57328;
+}
+.deleteButton {
+	background-color: red;
+}
+
+/*EXTRA COMPONENTS*/
+b {
+	font-size: 2.5rem;
+}
+span {
+	font-size: 1.5rem;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.apiDiv {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	background-color: red;
+	color: white;
+	border-style: none;
+	position: absolute;
+	top: 65px;
+	right: 178px;
+}
+.pythonDiv {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 185px;
+	left: 30px;
+}
+
+.sqlDiv {
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	top: 220px;
+	right: 30px;
+}
+.laptopDiv {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.client {
+	position: absolute;
+	left: 30%;
+	bottom: 57%;
+	color: red;
+	font-weight: bold;
+}
+.dbDiv {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.flaskDiv {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 25px;
+	left: 43%;
+}
+.linkDiv {
+	position: absolute;
+	bottom: 20px;
+	left: 39%;
+}
+.linkDiv a {
+	text-decoration: underline;
+}
